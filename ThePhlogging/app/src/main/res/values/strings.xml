@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">The Phlogging</string>
+    <string name="dis_str">Dismiss!</string>
+    <string name="save_str">Save!</string>
+    <string name="titleString">Title</string>
+    <string name="descString">Description</string>
+    <string name="timeString">Time</string>
+    <string name="createEntry">Create a new entry!</string>
+</resources>

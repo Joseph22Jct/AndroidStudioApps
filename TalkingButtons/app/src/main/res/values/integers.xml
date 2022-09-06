@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="maxTime">5000</integer>
+    <integer name="second">1000</integer>
+    <integer name="toastTime">2000</integer>
+</resources>

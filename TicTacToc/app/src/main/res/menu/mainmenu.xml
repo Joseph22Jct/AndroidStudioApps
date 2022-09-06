@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ResetScore"
+        android:title="@string/resetbuttonS"
+        />
+    <item
+        android:id="@+id/shortTimer"
+        android:title="@string/shorttimerS"
+        ></item>
+    <item
+        android:id="@+id/mediumTimer"
+        android:title="@string/mediumtimerS"
+        ></item>
+    <item
+        android:id="@+id/longTimer"
+        android:title="@string/longTimerS">
+
+    </item>
+</menu>

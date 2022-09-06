@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ListofPictures</string>
+    <string name="showButtonS">Show</string>
+    <string name="hideButtonS">Hide</string>
+    <string name="selectionButtonS">Selection</string>
+    <string name="happyWord">Happy</string>
+    <string name="sadWord">Sad</string>
+    <string name="gottemWord">Gottem</string>
+    <string name="extremeWord">Extreme</string>
+    <string name="pogWord">Pog</string>
+</resources>

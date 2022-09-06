@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name = "button_margins">16dp</dimen>
+    <dimen name = "play_button_size">60dp</dimen>
+    <dimen name = "progress_height">30dp</dimen>
+    <dimen name = "board_button_size">200dp</dimen>
+</resources>

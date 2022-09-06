@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameplaySection"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/content_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="left">
+        <Button
+            android:layout_marginLeft="@dimen/content_margin"
+            android:id="@+id/gameplayP1"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:enabled="false"
+            android:background="@color/redColor"
+            ></Button>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="60"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/theGameplayText"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/buttonSize"
+            android:text="DEBUG TEXT"
+            android:textSize="@dimen/importantTextSize"
+            ></TextView>
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:gravity="right">
+        <Button
+            android:layout_marginRight="@dimen/content_margin"
+            android:id="@+id/gameplayP2"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:enabled="false"
+            android:background="@color/greenColor"
+            ></Button>
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="@dimen/content_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        >
+        <ProgressBar
+
+            android:id = "@+id/time_left"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="@dimen/ProgressBarWidth"
+            android:layout_height="@dimen/ProgressBarHeight"
+            android:max="@integer/mediumBarTime"
+            android:progress="@integer/mediumBarTime"></ProgressBar>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="@dimen/content_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/content_margin">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="@dimen/gameplayButtons"
+            android:layout_height="@dimen/gameplayButtons"
+            android:onClick="myClickHandler">
+
+        </Button>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="@dimen/gameplayButtons"
+                android:layout_height="@dimen/gameplayButtons"
+                android:onClick="myClickHandler">
+
+            </Button>
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="@dimen/gameplayButtons"
+                android:layout_height="@dimen/gameplayButtons"
+                android:onClick="myClickHandler">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="@dimen/gameplayButtons"
+                android:layout_height="@dimen/gameplayButtons"
+                android:onClick="myClickHandler">
+
+            </Button>
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="@dimen/gameplayButtons"
+                android:layout_height="@dimen/gameplayButtons"
+                android:onClick="myClickHandler">
+
+            </Button>
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="@dimen/gameplayButtons"
+                android:layout_height="@dimen/gameplayButtons"
+                android:onClick="myClickHandler">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="@dimen/gameplayButtons"
+                android:layout_height="@dimen/gameplayButtons"
+                android:onClick="myClickHandler">
+
+            </Button>
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="@dimen/gameplayButtons"
+                android:layout_height="@dimen/gameplayButtons"
+                android:onClick="myClickHandler">
+
+            </Button>
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="@dimen/gameplayButtons"
+                android:layout_height="@dimen/gameplayButtons"
+                android:onClick="myClickHandler">
+
+            </Button>
+        </LinearLayout>
+        
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

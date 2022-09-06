@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerScores"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/content_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/player1SN"
+                android:text="@string/player1name"
+                android:layout_gravity="left"
+                android:textSize="@dimen/importantTextSize"
+                android:layout_marginLeft="@dimen/content_margin"
+                ></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/player1SP"
+                android:layout_width="@dimen/buttonSize"
+                android:layout_height="@dimen/buttonSize"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:background="@color/redColor"
+                android:enabled="false"
+                android:layout_marginRight="@dimen/content_margin"></Button>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <RatingBar
+            android:id="@+id/player1SRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="0"
+            android:layout_margin="@dimen/content_margin"
+            android:numStars="@integer/maxScore"
+            android:isIndicator="true"
+            ></RatingBar>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:gravity="left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/player2SN"
+                android:text="@string/player2name"
+                android:layout_gravity="left"
+                android:textSize="@dimen/importantTextSize"
+                android:layout_marginLeft="@dimen/content_margin"
+                ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:gravity="right">
+
+            <Button
+                android:id="@+id/player2SP"
+                android:layout_width="@dimen/buttonSize"
+                android:layout_height="@dimen/buttonSize"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:background="@color/greenColor"
+                android:enabled="false"
+                android:layout_marginRight="@dimen/content_margin"></Button>
+        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+        <RatingBar
+            android:id="@+id/player2SRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="0"
+            android:layout_margin="@dimen/content_margin"
+            android:numStars="@integer/maxScore"
+            android:isIndicator="true"
+            ></RatingBar>
+
+        </LinearLayout>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/importantTextSize"
+        android:text="@string/roundButton"
+        android:id="@+id/startRound"
+        android:layout_marginTop="@dimen/content_margin"
+        android:onClick="myClickHandler"
+        ></Button>
+
+
+
+</LinearLayout>

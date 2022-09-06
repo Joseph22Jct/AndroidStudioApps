@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TalkingButtons</string>
+    <string name="heyButton">Hey</string>
+    <string name="niceButton">Nice</string>
+    <string name="memeButton">Meme</string>
+    <string name="myButton">My</string>
+    <string name="friendButton">Friend</string>
+    <string name="memeReact">Hey nice meme</string>
+    <string name="waitReact">So you are just not gonna say anything huh?</string>
+
+</resources>

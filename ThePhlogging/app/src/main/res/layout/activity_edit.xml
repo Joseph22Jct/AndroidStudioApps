@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/titleString"
+        android:id="@+id/EditTextTitle"
+        android:textSize="@dimen/TitleSize"></EditText>
+
+    <ImageView
+        android:layout_width="@dimen/ImageSize"
+        android:layout_height="@dimen/ImageSize"
+        android:layout_gravity="center"
+        android:id="@+id/EditImage"
+        ></ImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/descString"
+        android:id="@+id/EditTextDesc"
+        android:textSize="@dimen/TextSize"></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnClickListener"
+        android:id="@+id/SaveButton"
+        android:layout_gravity="center"
+        android:text="@string/save_str"></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeEdit"
+        android:textSize="@dimen/TextSize"
+        android:text="@string/timeString">
+    </TextView>
+</LinearLayout>

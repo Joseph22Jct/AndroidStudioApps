@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="content_margin">8dp</dimen>
+    <dimen name="buttonSize">64dp</dimen>
+    <dimen name="inputbarLength">216dp</dimen>
+    <dimen name="StartButtonSize">200dp</dimen>
+    <dimen name="startbuttontextsize">50dp</dimen>
+    <dimen name="importantTextSize">25dp</dimen>
+    <dimen name="ProgressBarWidth">256dp</dimen>
+    <dimen name="ProgressBarHeight">36dp</dimen>
+    <dimen name="gameplayButtons">96dp</dimen>
+</resources>

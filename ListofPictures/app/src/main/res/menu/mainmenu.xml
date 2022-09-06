@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/showButton"
+        android:title="@string/showButtonS"
+        />
+    <item
+        android:id="@+id/hideButton"
+        android:title="@string/hideButtonS"
+        ></item>
+    <item
+        android:id="@+id/select"
+        android:title="select">
+        <menu>
+
+            <group
+                android:checkableBehavior="all">
+                <item
+                    android:id="@+id/happyButton"
+                    android:title="@string/happyWord"
+                    android:checked="true"
+                    ></item>
+                <item
+                    android:id="@+id/sadButton"
+                    android:title="@string/sadWord"
+                    android:checked="true">
+
+
+                </item>
+                <item
+                    android:id="@+id/gottemButton"
+                    android:title="@string/gottemWord"
+                    android:checked="true"
+                    ></item>
+                <item
+                    android:id="@+id/extremeButton"
+                    android:title="@string/extremeWord"
+                    android:checked="true">
+
+                </item>
+                <item
+                    android:id="@+id/pogButton"
+                    android:title="@string/pogWord"
+                    android:checked="true">
+
+                </item>
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

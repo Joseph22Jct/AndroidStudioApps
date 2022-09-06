@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">KillingCountries</string>
+    <string-array name="countries_names">
+        <item>MemeWorld</item>
+        <item>MemeLand</item>
+        <item>UMA</item>
+        <item>Memexico</item>
+        <item>Memezuela</item>
+        <item>Memerope</item>
+        <item>Memespain</item>
+        <item>Memetaly</item>
+        <item>Portumeme</item>
+        <item>Japameme</item>
+        <item>Memengland</item>
+        <item>Batman</item>
+        <item>MemeWorld 2</item>
+        <item>Memedeira</item>
+        <item>Panameme</item>
+        <item>Yememe</item>
+        <item>Komemea</item>
+        <item>Afrimeme</item>
+        <item>Germameme</item>
+        <item>Memestria</item>
+        <item>Austrameme</item>
+        <item>I am</item>
+        <item>So tired</item>
+        <item>of putting</item>
+        <item>this many</item>
+        <item>items</item>
+        <item>please let</item>
+        <item>this be</item>
+        <item>enough for</item>
+        <item>a scrolling</item>
+        <item>bar</item>
+    </string-array>
+</resources>

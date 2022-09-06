@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RatingProgress</string>
+<string name="ProgressButton">Start a progress bar!</string>
+</resources>

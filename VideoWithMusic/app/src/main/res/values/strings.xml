@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VideoWithMusic</string>
+    <string name="external_movie_file">video.mp4</string>
+</resources>

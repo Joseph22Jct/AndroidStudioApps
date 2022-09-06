@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/PlayerSetup">
+
+
+
+    <EditText
+
+        android:layout_gravity="left"
+        android:id="@+id/player1Name"
+        android:hint="Player 1's Name"
+        android:layout_width="@dimen/inputbarLength"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/content_margin"
+        ></EditText>
+
+        <Button
+            android:id="@+id/chooseP1Pic"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_margin="@dimen/content_margin"
+            android:onClick="myClickHandler"
+            android:background="@color/redColor"
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/PlayerSetup">
+
+
+        <EditText
+            android:layout_gravity="left"
+            android:id="@+id/player2Name"
+            android:hint="Player 2's Name"
+            android:layout_width="@dimen/inputbarLength"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/content_margin"
+
+            ></EditText>
+
+        <Button
+            android:id="@+id/chooseP2Pic"
+            android:layout_width="@dimen/buttonSize"
+            android:layout_height="@dimen/buttonSize"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_margin="@dimen/content_margin"
+            android:onClick="myClickHandler"
+            android:background="@color/greenColor"
+
+            >
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="@dimen/StartButtonSize"
+        android:layout_height="@dimen/StartButtonSize"
+        android:id="@+id/theStartButton"
+        android:text="@string/startButtonString"
+        android:textSize="@dimen/startbuttontextsize"
+        android:layout_gravity="center"
+        android:onClick="myClickHandler"
+
+        ></Button>
+
+
+
+</LinearLayout>

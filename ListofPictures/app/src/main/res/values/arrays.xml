@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emotionList">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Gottem</item>
+        <item>Extreme</item>
+        <item>Pog</item>
+    </string-array>
+    <string-array name="emotionPicList">
+        <item>ironic_meme.png</item>
+        <item>sad_meme.png</item>
+        <item>gottem_meme.png</item>
+        <item>extreme.png</item>
+        <item>pog.png</item>
+
+
+
+    </string-array>
+</resources>

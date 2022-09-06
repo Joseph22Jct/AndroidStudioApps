@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="start_year">1969</integer>
+    <integer name="sixty_second_time">60000</integer>
+    <integer name="minute">60</integer>
+    <integer name="second_field">4</integer>
+</resources>

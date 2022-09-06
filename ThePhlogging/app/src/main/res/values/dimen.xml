@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ImageSize">300dp</dimen>
+    <dimen name="TitleSize">30dp</dimen>
+    <dimen name="TextSize">15dp</dimen>
+    <dimen name="listHeight">500dp</dimen>
+    <dimen name="ButtonHeight">100dp</dimen>
+</resources>

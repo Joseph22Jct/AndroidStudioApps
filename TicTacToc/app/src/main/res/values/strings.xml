@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TicTacToc</string>
+    <string name="startButtonString">START</string>
+    <string name="player1name">Player 1</string>
+    <string name="player2name">Player 2</string>
+    <string name="roundButton">Start Round!</string>
+    <string name="resetbuttonS">Reset Score</string>
+    <string name="shorttimerS">Short Timer</string>
+    <string name="mediumtimerS">Medium Timer</string>
+    <string name="longTimerS">Long Timer</string>
+</resources>

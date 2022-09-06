@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gridboxwidth">100dp</dimen>
+    <dimen name="gridboxspacingvertical">20dp</dimen>
+
+</resources>

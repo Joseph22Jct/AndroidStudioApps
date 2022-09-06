@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+    <RatingBar android:id="@+id/scoresystem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/Margin"
+        android:layout_marginLeft="@dimen/Margin"
+        android:layout_marginTop="@dimen/Margin"
+        android:layout_marginBottom="@dimen/Margin"
+        android:isIndicator="true"
+        android:numStars="@integer/Max_Score"
+
+        ></RatingBar>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/startbutton"
+        android:layout_width="@dimen/ButtonSize"
+        android:layout_height="@dimen/ButtonSize"
+        android:layout_marginRight="@dimen/Margin"
+        android:layout_marginLeft="@dimen/Margin"
+        android:layout_marginTop="@dimen/Margin"
+        android:layout_marginBottom="@dimen/Margin"
+        android:onClick="myClickHandler"
+        android:text="@string/ProgressButton"
+        />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
